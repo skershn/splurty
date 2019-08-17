@@ -10,6 +10,21 @@
   </head>
 
   <body>
+    <header class="row">
+      <div class="col-3">
+        logo
+      </div>
+      <div class="col-4">
+        splurting out inspirational-ish quotes about vampires since 2019
+      </div>
+      <div class="col-5">
+        <%= link_to 'contribute', '#' %>
+        <%= link_to 'about', '#' %>
+      </div>
+    </header>
+
+    <br class="clear" />
+
     <%= yield %>
   </body>
 </html>
