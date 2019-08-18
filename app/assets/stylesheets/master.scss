@@ -16,9 +16,8 @@
   margin: 10px 10px;
   text-align: center;
   color: #FFF;
-  font-size: 12px;
-  font-family: 'New Rocker', cursive;
-  font-weight: normal;
+  font-size: 14px;
+  font-family: 'Grenze', cursive;
   line-height: 16px;
   cursor: pointer;
   transform: rotate(11deg);
@@ -39,6 +38,7 @@
 .links a {
   color: #400606;
   font-size: 25px;
+  font-family: 'Grenze', cursive;
   border-bottom: 1px solid #400606;
 }
 
@@ -48,4 +48,17 @@ header {
 
 hr {
   clear:both;
+}
+
+h1 {
+  font-family: 'mothproofscriptregular', cursive;
+  font-weight: 500;
+  font-size: 48px;
+  letter-spacing: -1.5px;
+}
+h2 {
+  font-family: 'Amarante', cursive;
+  font-weight: 100;
+  font-size: 20px;
+  letter-spacing: -1.5px;
 }
