@@ -36,10 +36,10 @@
 }
 
 .links a {
-  color: #400606;
+  color: #871717;
   font-size: 25px;
   font-family: 'Grenze', cursive;
-  border-bottom: 1px solid #400606;
+  border-bottom: 1px solid #871717;
 }
 
 header {
@@ -61,4 +61,17 @@ h2 {
   font-weight: 100;
   font-size: 20px;
   letter-spacing: -1.5px;
+}
+
+.next-quote {
+  color:#871717;
+  font-family: 'Grenze', cursive;
+  font-size: 20px;
+}
+
+.footer-blurb {
+  font-family: 'Grenze', cursive;
+  font-style: italic;
+  text-align: right;
+  font-size: 10px;
 }
