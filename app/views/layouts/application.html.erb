@@ -9,20 +9,23 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <style>
     @import url('https://fonts.googleapis.com/css?family=Amarante|Grenze|New+Rocker|Righteous&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
     </style>
   </head>
 
   <body>
     <header class="row">
       <div class="col-3">
-        <div class="circle">
-          <br />
-          the blood
-          <br />
-          is the 
-          <br />
-          life
-        </div>
+        <%= link_to root_path, class: 'logo' do %>
+          <div class="circle">
+            <br />
+            the blood
+            <br />
+            is the 
+            <br />
+            life
+          </div>
+        <% end %>
       </div>
       <div class="col-4 slogan">
         splurting out inspirational-ish quotes about vampires since 2019
@@ -45,7 +48,7 @@
     <div class="container">
       <div class="row">
         <div class="col-6">
-          <%= link_to "This isn't enough, I need more", "#", class: 'next-quote' %>
+          <%= link_to "This isn't enough, I need more", root_path, class: 'next-quote' %>
         </div>
         <div class="col-6 footer-blurb">
           Proudly risen from the dead by <a href="https://shannakershner.netlify.com">Shanna Kershner</a><br />
