@@ -7,21 +7,33 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Amarante|Grenze|New+Rocker&display=swap');
+    </style>
   </head>
 
   <body>
     <header class="row">
       <div class="col-3">
-        logo
+        <div class="circle">
+          <br />
+          the blood
+          <br />
+          is the 
+          <br />
+          life
+        </div>
       </div>
-      <div class="col-4">
+      <div class="col-4 slogan">
         splurting out inspirational-ish quotes about vampires since 2019
       </div>
-      <div class="col-5">
+      <div class="col-5 links">
         <%= link_to 'contribute', '#' %>
         <%= link_to 'about', '#' %>
       </div>
     </header>
+
+    <hr />
 
     <br class="clear" />
 

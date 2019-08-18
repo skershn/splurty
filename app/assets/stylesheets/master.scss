@@ -3,3 +3,49 @@
 .clear {
   clear: both;
 }
+
+.circle{
+  font-weight: bold;
+  font-style: italic;
+  position: relative;
+  border-radius: 100%;
+  background: #94150f;
+  border: 1px solid #F7F7F7;
+  width: 80px;
+  height: 80px;
+  margin: 10px 10px;
+  text-align: center;
+  color: #FFF;
+  font-size: 12px;
+  font-family: 'New Rocker', cursive;
+  font-weight: normal;
+  line-height: 16px;
+  cursor: pointer;
+  transform: rotate(11deg);
+  -ms-transform: rotate(11deg);
+  -webkit-transform: rotate(11deg);
+}
+
+.slogan {
+  font-family: 'Grenze', cursive;
+  font-style: italic;
+  padding-top: 26px;
+}
+
+.links{
+  padding-top: 26px;
+}
+
+.links a {
+  color: #400606;
+  font-size: 25px;
+  border-bottom: 1px solid #400606;
+}
+
+header {
+  border-top: 9px solid #222222;
+}
+
+hr {
+  clear:both;
+}
